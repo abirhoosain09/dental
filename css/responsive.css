@@ -1,0 +1,163 @@
+@media (max-width:1024px) {
+    .container{
+        padding: 0 30px;
+    }
+    .banner_img {
+        width: 59%;
+        right: 7%;
+    }
+    .hero_content h1 {
+        font-size: 31px;
+        padding-top: 0;
+    }
+    .hero_content p {
+        padding: 10px 0;
+        font-size: 13px;
+    }
+    .hero_content1 h3 {
+        padding-top: 9px;
+        font-size: 17px;
+    }
+    .hero_img {
+        width: 51%;
+        left: 0%;
+        transform: translateX(0%);
+    }
+    .card_2 {
+        margin: 10px 0;
+    }
+    .hero_content1 {
+        margin: 13px 0;
+    }
+}
+
+
+
+/* 768 */
+
+@media (max-width:991px){
+    .dekstop_topheader{
+        display: none;
+     }
+     .dekstop_topheader_mobile{
+         display: inherit;
+     }
+     .mobile_logo{
+         display: inherit;
+     }
+   
+     .apoinment_mobile{
+         display: inherit;
+     }
+     header{
+        padding: 20px 0;
+     }
+}
+@media (max-width:768px) {
+    
+    .apoinment_mobile{
+        display: flex;
+        align-items: center;
+        color: #fff;
+        background-color: #f69165;
+        -webkit-clip-path: polygon(13% 0, 92% 0, 77% 100%, 0% 100%);
+        clip-path: polygon(13% 0, 92% 0, 77% 100%, 0% 100%);
+        width: 215px;
+        height: 50px;
+    }
+    .apoinment_mobile i {
+        /* padding: 0 22px; */
+        padding-left: 24px;
+        padding-right: 10px;
+    }
+    .apoinment{
+        display: none;
+    }
+
+    .banner_img {
+        width: 64%;
+        right: 0;
+    }
+    .banner_content p {
+        color: #c2c6c6;
+        padding-right: 0;
+    }
+    .hero_content h1 {
+        font-size: 21px;
+        padding-top: 0;
+    }
+    .list-group li {
+        padding: 1px 0 8px;
+    }
+    
+    .img_f_content p{
+        display: none;
+    }
+    .footer_content1 p{
+        display: none;
+    }
+    .hero_content p {
+        font-size: 20px;
+    }
+    .hero_content1 h3 {
+        font-size: 28px;
+    }
+
+   
+    .banner_content h1 {
+        font-size: 34px;
+    }
+    
+}
+
+
+/* 768 */
+
+/* 575 */
+@media (max-width:575px) {
+    
+    .banner_content {
+        height: 43vh;
+        text-align: center;
+    }
+    .banner_content {
+        height: 43vh;
+    }
+    .hero_content1 {
+        /* width: 400px; */
+    }
+    .hero_content h1 {
+        font-size: 26px;
+    }
+    .hero_content p {
+        /* width: 400px; */
+        margin: auto;
+    }
+    .hero_img {
+        display: none;
+    }
+    .banner_content h1 {
+        font-size: 37px;
+    }
+}
+
+/* 575 */
+/* 320 */
+
+@media (max-width:320px) {
+    .banner_img {
+        width: 82%;
+        right: 10%;
+    }
+    .hero_content p {
+        /* font-size: 16px; */
+    }
+    
+    .banner_content h1 {
+        font-size: 26px;
+    }
+    .banner_content p {
+        color: #000;
+    }
+}
+/* 320*/
